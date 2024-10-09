@@ -6,8 +6,11 @@ content: [
     "./vendor/livewire/flux-pro/stubs/**/*.blade.php",
     "./vendor/livewire/flux/stubs/**/*.blade.php",
 ],
-  theme: {
+theme: {
+    fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+    },
     extend: {},
-  },
-  plugins: [],
+    },
+    plugins: [],
 }
