@@ -22,12 +22,20 @@
                 </flux:modal.trigger>
                 <flux:modal name="opendarnit" class="min-w-[22rem] space-y-6">
                     <div>
-                    <flux:heading size="lg">NOW you see me?</flux:heading>
-                        <p>
-                            Apparently Modal only works if <code>x-data="" </code> is explicitly defined?
-                        </p>
+                    <flux:heading size="lg">Look ma! No x-data=""!</flux:heading>
                     </div>
                 </flux:modal>
+            </flux:subheading>
+            <flux:subheading>
+                <p>
+                    From 1.0.9 its no longer needed to wrap the modal in a Alpine/Livewire component.
+                </p>
+                <flux:button
+                    href="https://github.com/livewire/flux/releases/tag/v1.0.9"
+                    icon-trailing="arrow-up-right" rel="nofollow"
+                >
+                    Flux 1.0.9
+                </flux:button>
             </flux:subheading>
             <footer class="py-16 text-center text-sm text-black dark:text-white/70">
                 Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
