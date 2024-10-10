@@ -13,7 +13,7 @@
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
     <flux:main>
-    <div x-data="" class="flex items-center justify-center h-screen">
+    <div class="flex items-center justify-center h-screen">
         <div class="p-8 rounded-lg bg-gray-500/20 space-y-8">
             <flux:heading level="1" size="lg">Hello Fluxer!</flux:heading>
             <flux:subheading>
